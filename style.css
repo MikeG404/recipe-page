@@ -1,0 +1,79 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+    --rose-800: #7A284E; 
+    --rose-50: #FFF7FB;
+
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+
+    --brown-800: #854632;
+
+    --white: #FFFFFF;
+
+    --line-height-100: 1;
+    --line-height-150: 1.5;
+
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+
+    --font-family-1: 'YoungSerif';
+    --font-family-2: 'Outfit';
+}
+
+.text-preset-1 {
+    font-family: var(--font-family-1);
+    font-size: 40px;
+    line-height: var(--line-height-100);
+    letter-spacing: 0;
+    font-weight: var(--font-weight-regular);
+}
+
+.text-preset-2 {
+    font-family: var(--font-family-1);
+    font-size: 28px;
+    line-height: var(--line-height-100);
+    letter-spacing: 0;
+    font-weight: var(--font-weight-regular);
+}
+
+.text-preset-3 {
+    font-family: var(--font-family-2);
+    font-size: 20px;
+    line-height: var(--line-height-100);
+    letter-spacing: 0;
+    font-weight: var(--font-weight-semi-bold);
+}
+
+.text-preset-4 {
+    font-family: var(--font-family-2);
+    font-size: 16px;
+    line-height: var(--line-height-150);
+    letter-spacing: 0;
+    font-weight: var(--font-weight-regular);
+}
+
+.text-preset-4-bold {
+    font-family: var(--font-family-2);
+    font-size: 16px;
+    line-height: var(--line-height-150);
+    letter-spacing: 0;
+    font-weight: var(--font-weight-bold);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
